@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"ru.demo.downloadmusic","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"ru.demo.downloadmusic","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

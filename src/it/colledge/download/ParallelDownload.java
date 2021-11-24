@@ -1,10 +1,11 @@
 package it.colledge.download;
 
-public class ParallelDownload{
+/**Метод создаёт и запускает потоки скачивания музыки и картинки*/
 
+public class ParallelDownload{
     public static void parallelDownload() {
-        DownloadMusic downloadMusic = new DownloadMusic();
-        DownloadPicture downloadPicture = new DownloadPicture();
+        @ThisIsThread DownloadMusic downloadMusic = new DownloadMusic();
+        @ThisIsThread DownloadPicture downloadPicture = new DownloadPicture();
         downloadMusic.start();
         downloadPicture.start();
     }
